@@ -151,12 +151,12 @@ header a:hover {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -192,7 +192,7 @@ header a:hover {
 #newsletter input[type="email"] {
 	padding: 4px;
 	height: 25px;
-	width: 250px;	
+	width: 250px;
 }
 /* Boxes */
 #boxes {
@@ -255,3 +255,123 @@ footer {
 		margin-bottom: 5px;
 	}
 }
+/*---------------About Us (Sobre nosotros) CARLOS---------------*/
+.rt_portrait {
+	height: 20%;
+	border: 5px solid #35424a;
+	border-radius: 10px
+}
+
+#test {
+}
+#test table, td, th{
+	/*border: 1px solid black;*/
+	/*background-color: brown;*/
+}
+.rt_name{
+	text-align: left;
+	height: 20%;
+	/*background-color: blue;*/
+	font-size: 20px;
+	padding-left: 20px;
+}
+.rt_text{
+	display: inline-block;
+	vertical-align: text-top;
+	/*background-color: red;*/
+	font-size: 16px;
+	padding-left: 40px;
+	font-style: italic;
+}
+/*.rt_name, .rt_text{
+	padding-left: 20px
+*/
+/*---------------CARLOS---------------*/
+
+/*---------------MARIO---------------*/
+#div_map {
+	border: 5px solid #e8491d;
+	border-radius:10px 10px 10px 10px;
+	position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+#glg_map	{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+
+}
+#cnct_maps {
+	border-radius:10px 10px 10px 10px;
+	position:fixed;
+	padding: 1px 15px 15px 15px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*---------------MARIO---------------*/
+
+/*---------------INAKI---------------*/
+/* Productos */
+#productospt {
+	font-family: 'Audiowide', cursive;
+	font-size: 22px;
+}
+.productscontainer {
+	height: 160px;
+	width: 100%;
+}
+.tiles {
+	width: 100%;
+	height: 6%;
+	background: #35424a;
+	margin-bottom: 6px;
+}
+.productscontainer table {
+	height: 120px;
+	border: none;
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+.productscontainer img{
+	border: none;
+}
+.productscontainer td{
+	width: 100%;
+	vertical-align: top;
+	text-align: justify;
+	border: none;
+	/* word-break: break-all; */
+	text-indent: 10px;
+	background-color:
+}
+.imgproducts {
+	float:left;
+	width: 20%;
+	height: auto;
+}
+.productdesc {
+	float: left;
+	width: 80%;
+	height: 94%;
+}
+.productstext {
+	line-height: 85%;
+}
+.trtop {
+	background-color: #e6f9ff;
+}
+.trbottom {
+	background-color: #e7e8ea;
+}
+.productscontainer span {
+	font-family: 'Audiowide', cursive;
+	padding-left: 6px;
+}
+/*---------------INAKI---------------*/
