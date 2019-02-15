@@ -264,9 +264,11 @@ footer {
 
 #test {
 }
-#test table, td, th{
+#test td, th{
 	/*border: 1px solid black;*/
 	/*background-color: brown;*/
+	vertical-align: top;
+	padding-bottom: 30px
 }
 .rt_name{
 	text-align: left;
@@ -274,6 +276,9 @@ footer {
 	/*background-color: blue;*/
 	font-size: 20px;
 	padding-left: 20px;
+	padding-top: 30px;
+	font-weight: bold;
+
 }
 .rt_text{
 	display: inline-block;
@@ -281,7 +286,10 @@ footer {
 	/*background-color: red;*/
 	font-size: 16px;
 	padding-left: 40px;
+	padding-top: 10px;
 	font-style: italic;
+	width: 80%;
+
 }
 /*.rt_name, .rt_text{
 	padding-left: 20px
@@ -375,3 +383,62 @@ footer {
 	padding-left: 6px;
 }
 /*---------------INAKI---------------*/
+/*---------------JOSEBA---------------*/
+@font-face {
+  font-family: myFirstFont;
+  src: url("../Fonts/Cinzel/Cinzel-Bold.ttf");
+}
+#boxes_JS {
+	/*margin-top: 20px;*/
+}
+#boxes_JS .box {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+	padding-top:25px;
+	height:300px;
+}
+#boxes_JS .box img {
+	width: 300px;
+}
+#boxes_JS .imagen {
+	width:100%;
+	height:50%;
+
+}
+#boxes_JS .texto {
+	width:100%;
+	height:50%;
+}
+#cruzroja {
+	padding-top:14%;
+}
+#UNICEF {
+	padding-top:13%;
+}
+aside#sidebar_JS {
+	width: 30%;
+	margin-top: 20px;
+	float:right;
+	font-family: myFirstFont;
+	font-size:50px;
+	color:#e8491d;
+}
+.bordeoferta {
+	border: 10px solid transparent;
+	/* background-color: #35424a; */
+	border-image: url("../Images/border.png") 25% round;
+}
+.ofertas {
+	text-align:center;
+	margin:0px auto;
+	/* background-color: #35424a; */
+
+}
+#sidebar_JS ul {
+	list-style-image: url('../Images/lista.png');
+	font-size:15px;
+
+}
+/*---------------JOSEBA---------------*/
