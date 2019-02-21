@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">			<!-- Help gotten from https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Computer">
+		<meta name="keywords" content="Página Web Computer, venta de productos electrónicos">
+		<meta name="autor" content="Iñaki de Miguel">
+		<title>Web Computer | Inicio</title>
+		<link rel="icon" type="image/png" href="./Images/favicon.ico" sizes="32x32" />
+		<link rel="stylesheet" type="text/css" href="./Css/stylesheet.css">
+		<script src="./Scripts/main_banner.js"></script>
+	</head>
+	<body onload="showSlides()">
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Página Web Computer</span></h1>
+				</div>
+				<nav>
+					<ul>
+						<li class="current"><a href="index.html">Inicio</a></li>
+						<li><a href="about.html">Conócenos</a></li>
+						<li><a href="products.html">Productos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section>	<!-- SCROLL DE IMAGENES CON BOTONES, TÍTULO Y DESCRIPCIÓN -->
+				<!-- Slideshow container -->
+			<div class="slideshow-container">
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<!-- <div class="numbertext">1 / 3</div> -->
+				<img src="./Images/ComputerGroup.png" alt="Imagen no disponible" style="width:100%;">
+				<!-- <div class="text">Caption Text</div> -->
+			  </div>
+
+			  <div class="mySlides fade">
+				<!-- <div class="numbertext">2 / 3</div> -->
+				<img src="./Images/ComputerSlogan.png" alt="Imagen no disponible" style="width:100%;">
+				<!-- <div class="text">Caption Two</div> -->
+			  </div>
+
+			  <div class="mySlides fade">
+				<!-- <div class="numbertext">3 / 3</div> -->
+				<img src="./Images/ComputerProducts.png" alt="Imagen no disponible" style="width:100%;">
+				<!-- <div class="text">Caption Three</div> -->
+			  </div>
+
+			  <!-- Next and previous buttons -->
+			  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
+			  <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+			</div>
+			<!-- <br> -->
+
+			<!-- The dots/circles -->
+			<!-- <div style="text-align:center"> -->
+			  <!-- <span class="dot" onclick="currentSlide(1)"></span> -->
+			  <!-- <span class="dot" onclick="currentSlide(2)"></span> -->
+			  <!-- <span class="dot" onclick="currentSlide(3)"></span> -->
+			<!-- </div> -->
+		</section>
+
+		<section id="newsletter">
+			<div class="container">
+				<h1>Contacta con nosotros</h1>
+				<form method="get" action="./form.html">
+					<button type="submit" class="button_1" style="width:600px;">Pulsa aquí</button>
+				</form>
+			</div>
+		</section>
+		<!--JOSEBA-->
+		<section id="boxes_JS">
+			<div class="container">
+				<div class="box">
+					<div class="imagen">
+						<a href="http://anfasnavarra.org/">
+							<img src="./Images/paraguas.jpg" alt="Imagen no disponible">
+						</a>
+					</div>
+					<div class="texto">
+
+						<p>
+							En nuestra empresa estamos comprometidos con el apoyo a las personas con todo tipo de discapacidades y debido a ello
+							donamos el 5% de nuestras ganancias a ONGs que les ayudan a tener una independencia tanto física como social.
+						</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imagen">
+						<a href="https://www.cruzroja.es/principal/web/cruz-roja/inicio">
+							<img id="cruzroja" src="./Images/cruz.png" alt="Imagen no disponible">
+						</a>
+					</div>
+					<div class="texto">
+
+						<p>
+							Así mismo,estamos concienciados con labores humanitarias internacionales como el tsunami de Indonesia o los incendios de California a los que destinamos otro
+							2,5% de nuestras ganancias.
+						</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="imagen">
+						<a href="https://www.unicef.es/">
+							<img id="UNICEF" src="./Images/UNICEF.png" alt="Imagen no disponible">
+						</a>
+					</div>
+					<div class="texto">
+
+						<p>
+							Al mismo tiempo que ayudamos a la cruz roja con sus labores humanitarias, estamos orgullosos de de contribuir con
+							UNICEF es sus proyectos con una donación del 2,5% de nuestras ganancias.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--JOSEBA-->
+		<footer>
+			<p>Página Web Computer &copy; 2018-2019</p>
+		</footer>
+
+	</body>
+</html>
