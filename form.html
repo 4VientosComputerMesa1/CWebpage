@@ -41,15 +41,15 @@
 					
 				</div>
 				<div id="fright">
-					<img src="./Images/claims.png">
+					<img src="./Images/claims.png" alt="Imagen no disponible">
 				</div>
 				<label for="phone">Teléfono</label>
 				<input type="tel" id="phone" name="Teléfono">
 				<p>Voy a realizar una:</p>
 					<div id="radiocontainer">
-						<label for="sug">sugerencia</label>
-						<input type="radio" id="sug" name="Realiza" value="sugerencia"/>
-						<label for="rec" style="padding-right: 6px;">reclamación</label>
+						<label for="sug" style="margin-left: 80px;">sugerencia</label>
+						<input type="radio" id="sug" name="Realiza" value="sugerencia" style="margin-right: 80px;"/>
+						<label for="rec" style="padding-right: 10px; margin-left: 4px;">reclamación</label>
 						<input type="radio" id="rec" name="Realiza" value="reclamación"/>
 					</div>	
 				<label for="area" style="clear:both;">Mensaje:</label>
@@ -57,10 +57,10 @@
 				<div id="freclama">
 					<span>Rellenar en caso de reclamación</span>
 					<hr>
-					<label for="fdate">Día de la incidencia*</label>
-					<input type="date" id="fdate" name="FechaIncidencia" required />
-					<label for="file">Adjuntar hoja*</label>
-					<input class="inputfile" type="file" id="file" name="Archivo" required />
+					<label for="fdate">Día de la incidencia</label>
+					<input type="date" id="fdate" name="FechaIncidencia"/>
+					<label id="hoja" class="button_1" for="file">Adjuntar hoja</label>
+					<input class="inputfile" type="file" id="file" name="Archivo"/>
 				</div>
 				<div id="fbuttons">
 				<input id="freset" style="background-color: #35424a;" class="button_1" type="reset"/>
@@ -69,7 +69,7 @@
 			</fieldset>
 		</form>
 	
-		<p id="adobe"><a href="./Documents/Doc_Rec.pdf"><img src="./Images/Adobe.png"></a></p>
+		<p id="adobe"><a href="./Documents/Doc_Rec.pdf"><img src="./Images/Adobe.png" alt="Imagen no disponible"></a></p>
 		<hr style="width:650px;">
 		<embed id="pdf" src="./Documents/Doc_Rec.pdf" type="application/pdf" height="780" width="600">
 		
