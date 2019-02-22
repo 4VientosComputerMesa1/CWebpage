@@ -306,10 +306,10 @@ footer {
 	border-radius:10px 10px 10px 10px;
 	position: relative;
     padding-bottom: 75%;
-    height: auto;
-	width: 350px;
+    height: 5px;
+		width: auto;
     overflow: hidden;
-	
+
 }
 #glg_map	{
 	position: absolute;
@@ -539,8 +539,8 @@ aside#sidebar_JS {
 }
 #formstyle #hoja {
 	cursor: pointer; /* "hand" cursor */
-	width: 60px; 
-	text-align: center; 
+	width: 60px;
+	text-align: center;
 	margin-top: 5px;
 }
 #formstyle .inputfile:focus + label {
