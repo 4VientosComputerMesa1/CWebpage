@@ -306,8 +306,10 @@ footer {
 	border-radius:10px 10px 10px 10px;
 	position: relative;
     padding-bottom: 75%;
-    height: 0;
+    height: auto;
+	width: 350px;
     overflow: hidden;
+	
 }
 #glg_map	{
 	position: absolute;
@@ -325,6 +327,12 @@ footer {
 	color: #fff;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.micons {
+	height: auto;
+	width: 40px;
+	vertical-align: middle;
+	margin-right: 8px;
 }
 /*---------------MARIO---------------*/
 /*---------------INAKI---------------*/
