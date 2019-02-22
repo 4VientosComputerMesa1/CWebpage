@@ -306,7 +306,7 @@ footer {
 	border-radius:10px 10px 10px 10px;
 	position: relative;
     padding-bottom: 75%;
-    height: 5px;
+    height: auto;
 		width: auto;
     overflow: hidden;
 
