@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Computer">
+		<meta name="keywords" content="Página Web Computer, venta de productos electrónicos">
+		<meta name="autor" content="Iñaki de Miguel">
+		<title>Ponte en contacto</title>
+		<link rel="icon" type="image/png" href="./Images/favicon.ico" sizes="32x32" />
+		<link rel="stylesheet" type="text/css" href="./Css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	</head>
+	<body id="formbody">
+	<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight">Página Web Computer</span></h1>
+				</div>
+				<nav>
+					<ul>
+						<li class="current">
+						<form>
+							<input type="button" class="button_1" value="Volver" onclick="history.back()" style="width:600px;">
+						</form>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<form id="formstyle" action="mailto:computer@gmail.com" method="post" enctype="text/plain">
+			<fieldset>
+				<legend>Buzón de sugerencias y Reclamaciones</legend>
+				<div id="fleft">
+					<label for="first-name">Nombre*</label>
+					<input type="text" id="first-name" name="Nombre" required />
+					<label for="last-name">Apellidos*</label>
+					<input type="text" id="last-name" name="Apellidos" required />
+					<label for="email">Email*</label>
+					<input type="email" id="email" name="Correo" required />
+					
+				</div>
+				<div id="fright">
+					<img src="./Images/claims.png" alt="Imagen no disponible">
+				</div>
+				<label for="phone">Teléfono</label>
+				<input type="tel" id="phone" name="Teléfono">
+				<p>Voy a realizar una:</p>
+					<div id="radiocontainer">
+						<label for="sug" style="margin-left: 80px;">sugerencia</label>
+						<input type="radio" id="sug" name="Realiza" value="sugerencia" style="margin-right: 80px;"/>
+						<label for="rec" style="padding-right: 10px; margin-left: 4px;">reclamación</label>
+						<input type="radio" id="rec" name="Realiza" value="reclamación"/>
+					</div>	
+				<label for="area" style="clear:both;">Mensaje:</label>
+				<textarea id="area" rows="10" placeholder="Escribe aquí tu mensaje..."></textarea><br>
+				<div id="freclama">
+					<span>Rellenar en caso de reclamación</span>
+					<hr>
+					<label for="fdate">Día de la incidencia</label>
+					<input type="date" id="fdate" name="FechaIncidencia"/>
+					<label id="hoja" class="button_1" for="file">Adjuntar hoja</label>
+					<input class="inputfile" type="file" id="file" name="Archivo"/>
+				</div>
+				<div id="fbuttons">
+				<input id="freset" style="background-color: #35424a;" class="button_1" type="reset"/>
+				<input id="fsend" style="padding-right: 33px; padding-left: 33px;" class="button_1" type="submit" onclick="alert('Enviado correctamente')" />
+				</div>
+			</fieldset>
+		</form>
+	
+		<p id="adobe"><a href="./Documents/Doc_Rec.pdf"><img src="./Images/Adobe.png" alt="Imagen no disponible"></a></p>
+		<hr style="width:650px;">
+		<embed id="pdf" src="./Documents/Doc_Rec.pdf" type="application/pdf" height="780" width="600">
+		
+		<footer>
+			<p>Página Web Computer &copy; 2018-2019</p>
+		</footer>
+	</body>
+</html>
